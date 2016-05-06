@@ -1,0 +1,97 @@
+/* Default */
+
+.default #cover {
+	background: url(../images/backgroundRegister.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+	.default .userMeta a {color: #9E1F63}
+
+	.feed .default #title a {
+	background: url(../images/logo_default.svg) 50% 50% no-repeat;
+			background-size: cover;
+			}
+
+	#deleteMessage button#delete,
+	.default #profileColumn {background: #B72070}
+
+	.default #follow div a,
+	.default .TT p a,
+	.feed .default .edit .fa {color: #B72070 }
+
+	.default .userTalk,
+	.default div#follow {background: #9E1F63}
+
+	.default .share a > i {background: #B72070 }
+
+	.default .share a > i:before {
+					border-top: 13px solid #B72070;
+					border-bottom: 13px solid #B72070; 
+					border-right:9px solid #B72070;
+					border-top: 10px solid transparent;
+					border-left: 10px solid transparent;
+					border-bottom:10px solid transparent;
+				}
+
+/* Red */
+
+.red #cover {
+	background: url(../images/banners_color/banners_0001_red.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+
+/*Orange*/
+
+.orange #cover {
+	background: url(../images/banners_color/banners_0006_orange.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+/*Yellow*/
+
+
+.yellow #cover {
+	background: url(../images/banners_color/banners_0005_yellow.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+/*Green*/
+
+
+.green #cover {
+	background: url(../images/banners_color/banners_0004_green.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+
+/*Blue*/
+
+.blue #cover {
+	background: url(../images/banners_color/banners_0003_blue.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+
+/*Purple*/
+
+.purple #cover {
+	background: url(../images/banners_color/banners_0002_purple.jpg) left top no-repeat;
+	background-size: cover
+
+}
+
+
+/*Black*/
+
+.black #cover {
+	background: url(../images/banners_color/banners_0000_black.jpg) left top no-repeat;
+	background-size: cover
+
+}

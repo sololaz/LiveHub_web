@@ -1,0 +1,282 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Welcome to LiveHub | Register</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="favicons/manifest.json">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+
+<body class="login register">
+
+<div id="main login">
+	<header id="header" class="default">
+		<h1 id="title"><a href="index.html">LiveHub</a></h1>
+
+		
+	</header>
+
+	
+
+    <section id="form" class="signForm">
+
+        <h2>Welcome to LiveHub!</h2>
+
+      <div id="R1" class="registerBox off">
+        <div class="BoxH">Register with an existing account
+          <div class="tooltip"><i class="fa fa-question" aria-hidden="true"></i>
+  <div class="tooltiptext">Lorem ipsum dolor sit amet, mel cibo reprimique te. No qui nostrum convenire. .</div>
+</div>
+        </div>
+         <form id="extistingAccount">
+
+
+        <select>
+          <option selected="true" disabled="disabled">Select your network</option>
+          <option>Anastacia</option>
+          <option>Anastacia</option>
+        </select>
+        <input type="text" required placeholder="Your username or email">
+        <input type="password" required placeholder="Your password">
+
+      <input type="submit" value="Join Now">
+        <!-- <button onclick="location.href = 'register2.html';">Join now</button> -->
+
+       
+
+      </form>
+      </div>
+
+      <div id="R2" class="registerBox off">
+        <div class="BoxH">Create a new account
+ <div class="tooltip"><i class="fa fa-question" aria-hidden="true"></i>
+  <div class="tooltiptext">Lorem ipsum dolor sit amet, mel cibo reprimique te. No qui nostrum convenire. .</div>
+</div>
+
+
+        </div>
+         <form id="newAccount">
+        <input type="text" required placeholder="Your username" name="user">
+        <input type="email" required placeholder="Your email" name="email">
+        <input type="password" required placeholder="Your password" name="password">
+
+       <input type="submit" value="Join Now">
+
+       
+
+      </form>
+      </div>
+
+      <div id="R3" class="registerBox off">
+         <div class="BoxH">Register with Facebook or Twitter
+          <div class="tooltip"><i class="fa fa-question" aria-hidden="true"></i>
+  <div class="tooltiptext">Lorem ipsum dolor sit amet, mel cibo reprimique te. No qui nostrum convenire. .</div>
+</div></div>
+       <div id="socialLogin">
+
+        <button id="facebookBtn">Register with Facebook</button>
+         <button id="twitterBtn">Register with Twitter</button>
+
+
+         </div>
+
+      </div>
+
+
+        <div id="bottomForm">
+
+         <p>By signing up, I agree to LiveHub's <a href="*">Terms of Service,
+Privacy Policy</a> and our <a href="*">Cookies Policy.</a></p>
+
+         <p>Already have an account? <a href="login.html"> Log In »</a></p>
+        </div>
+         </div>
+
+    </section>
+
+	
+
+<footer>
+    <nav id="footer">
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html">Contact</a></li>
+        <li><a href="about.html#termsandconditions">Terms of Use</a></li>
+      </ul>
+       <ul id="social">
+          <li><a href="https://twitter.com/live_hub" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/live_hub/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+<script src="js/jquery.smoothState.min.js"></script>
+<script src="js/main.js"></script>
+
+
+  <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+
+  <script src="js/js.cookie.js"></script>
+
+<script type="text/javascript">
+
+
+
+
+// Cookies
+
+var loginPath = "http://livehubdev-env.us-east-1.elasticbeanstalk.com/api/users/login",
+    token     = null,
+    user      = new User();
+
+//This function logs the user in
+
+var login = function( user, email, pass ){
+
+  return $.post( loginPath, { 
+    username : user,
+    email : email,
+    password : pass
+  }); 
+  
+}
+
+//when the user submits a login form invoke the login function and
+//handle the data
+
+$("#newAccount").submit(function(){
+  
+  //get the values from the form when it's submitted
+  
+  var user = $(this).find("input[name='username']").val(),
+      mail = $(this).find("input[name='mail']").val();
+      pass = $(this).find("input[name='password']").val();
+  
+  //pass the values to the login function
+  
+  login( user, email, pass )
+    
+    //if the user is logged in successfully
+    //pass data to the user object
+    
+  .done(function(d){
+
+        User.setData( d.user )
+            .setToken( d.token );
+
+  })
+  .error(function(d){
+
+    //if an error occurs let the user know
+    console.log(d);
+
+  }); 
+  
+});
+
+
+//this class will hold the user data throughout the session
+//and is where you'll access the cookie data
+
+function User(){
+  
+  var _this = this;
+  
+  //get data from the cookie by key
+  this.get      = function( key ){
+    
+    return $.cookie( 'user.' + key ); 
+    
+  }
+  
+  //sets the user data being carried through session
+  this.setData  = function( userData ){
+    
+    for( key in userData ){
+      
+      $.cookie( 'user'.key, userData[key] );
+      
+    }
+    
+    return _this;
+    
+  }
+  
+  this.setToken = function( token ){
+    
+    $.cookie('user.access_token', token);
+    
+  }
+  
+  this.getToken = function(){
+    
+     return $.cookie('user.access_token');
+    
+  }
+  
+}
+
+
+  $(function() {
+      
+   $('.BoxH').each(function(){
+
+       $(this).click(function(){
+        $(this).parent().removeClass('off');
+        $(this).parent().addClass('on');
+           $(this).siblings().fadeIn('slow')
+          $(this).parent().siblings('div').removeClass('on');
+          $(this).parent().siblings('div').addClass('off');
+
+       })
+  
+       });
+    });
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76836307-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
