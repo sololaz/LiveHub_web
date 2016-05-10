@@ -447,8 +447,7 @@ video#bgvid {
 	}
 
 	#form form {
-		margin: 22px 18px;
-		height: 146px
+		margin: 22px 18px 0;
 	}
 
 		#form .registerBox form {
@@ -553,12 +552,28 @@ video#bgvid {
 			float: left;
 			font-size: 1em;
 			padding: 9px 12px;
-			margin-bottom: 10px;
+			margin-bottom: 20px;
 			-webkit-transition:border .5s;  
 			-moz-transition:border .5s;  
 			-o-transition:border .5s;  
 			transition:border .5
 		}	
+
+
+
+#login-form .error {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: -15px;
+	font-size: .9em;
+	color:red;
+	padding-left: 7px;
+	display: none;
+}
+
+	#login-form .error.visible {
+		display: block;
+	}
 
 
 			select:focus,
@@ -597,10 +612,8 @@ video#bgvid {
 					#form fieldset {
 						float: left;
 						width: 100%;
-						margin-top: 16px;
 						border:none;
 						border-bottom: #DADADA 1px solid;
-						padding-bottom: 16px;
 						margin-bottom: -8px;
 					}
 
@@ -628,7 +641,7 @@ video#bgvid {
 						height: 20px;
 						text-align: center;
 						position: relative;
-						margin: 0px auto 20px;
+						margin: 0px auto 10px
 					}
 
 			#bottomForm {
@@ -654,8 +667,6 @@ video#bgvid {
 						font-weight: 600;
 						color: #000
 					}
-
-
 
 				#socialLogin button:before {
 					font-weight: 300;

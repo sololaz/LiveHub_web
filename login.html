@@ -53,10 +53,11 @@
     <section id="form">
 
         <h2>Welcome back to LiveHub!</h2>
-      <form id="login-form">
+      <form id="login-form" class="clearfix" >
         <input type="text" required placeholder="Your username or email" name="username">
+        <div class="error">Not a valid username</div>
         <input type="password" required placeholder="Your password" name="password">
-
+        <div class="error">Not a valid password</div>
         <input type="submit" value="Go!">
 
         <fieldset>
@@ -151,7 +152,7 @@ $("#login-form").submit(function(event){
   .error(function(d){
     //if an error occurs let the user know
     console.log(d);
-    alert('Oops! there was an error on your login')
+    $('.error').addClass('visible')
   }); 
   
   event.preventDefault();
