@@ -428,6 +428,19 @@ video#bgvid {
 	padding: 24px;
 }
 
+	#form.forgot {
+		height: 300px;
+		margin-top: -150px
+	}
+
+		#form.forgot p {
+			font-size: 1em;
+			background: #fff;
+			margin:0 20px;
+			padding: 10px 10px 0;
+			border-left:5px solid red;
+		}
+
 	#R1 {
 		margin-top: 22px
 	}
@@ -561,19 +574,15 @@ video#bgvid {
 
 
 
-#login-form .error {
+.ng-binding.ng-scope {
 	float: left;
-	margin-bottom: 10px;
-	margin-top: -15px;
+	margin-bottom: 8px;
 	font-size: .9em;
 	color:red;
 	padding-left: 7px;
-	display: none;
 }
 
-	#login-form .error.visible {
-		display: block;
-	}
+
 
 
 			select:focus,
@@ -661,6 +670,7 @@ video#bgvid {
 					color: #575756;
 				}
 
+					#form.forgot a,
 					#bottomForm a,
 					#socialLogin a {
 						font-size: 1em;
